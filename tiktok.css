@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  /*box-sizing: border-box;*/
+}
+
+.center {
+  display: flex ; /*ficam em linha um do lado do outro*/
+  margin : 2% auto;
+  max-width: 1200px;
+flex-wrap: wrap;/*verifica se as linhs podem ser quebradas ou devem seguir a mesma direção, caso sigam retorna true e sera validado a direção*/
+
+}
+.logo{
+  width: 85%;
+}
+.context{
+  flex-wrap: wrap;
+  width:50% ;
+  text-align: center;
+  display: flex;
+  margin-top:2% auto ;
+  max-width: 1200px;
+  justify-content: center;
+  justify-items: center;
+}
