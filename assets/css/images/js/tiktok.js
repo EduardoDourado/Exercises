@@ -16,7 +16,7 @@
 
 //]
 
-var usuarios = [{ id: Number, name: "#", email: "#", senha: "#" }];
+var usuarios = [{}];
 
 window.onload = () => {
   var tbody = document.querySelector(".tabela-dinamica tbody");
