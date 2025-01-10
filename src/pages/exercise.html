@@ -1,40 +1,43 @@
 <!DOCTYPE html>
-<html lang="pt">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="../../assets/css/images/js/tiktok.js"></script>
     <title>Document</title>
-</head>
+  </head>
 
-<body>
-    <div id="Listagem-pessoas">
-        <div>
-            <table class="tabela-dinamica">
-                <thead>
-                    <tr>
-                       
-                    </tr>
-                </thead>
-                <tbody>
-                    
-                </tbody>
+  <body>
+    <form id="Cadastro">
+      <div>
+        <label for="nome">Nome de usuario</label>
+        <input type="text" id="nome" name="nome" required /><br /><br />
 
-            </table>
-        </div>
-        <table>
-            <thead>
+        <label for="senha">Senha</label>
+        <input type="password" id="senha" name="senha" required /><br /><br />
 
-                <body>
+        <label for="email">Seu email</label>
+        <input type="email" id="email" name="email" required /><br /><br />
 
-                </body>
-            </thead>
+        <input type="button" value="Cadastrar" />
+      </div>
+    </form>
 
-        </table>
-
+    <div id="listagem-pessoas">
+      <table class="listagem-dinamica">
+        <thead>
+          <tr>
+            <th>Usuario</th>
+            <br />
+            <th>Email</th>
+            <br />
+            <th>Senha</th>
+            <br />
+          </tr>
+          <body></body>
+        </thead>
+      </table>
     </div>
-<a href="login.html">Tiktok</a>
-</body>
-
+    <a href="login.html">Tiktok</a>
+  </body>
 </html>
